@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Code Ville</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- CHANGING HTML ATTRIBUTES IN WITH JAVASCRIPT -->
+        <div class="img-container">
+            <!-- <img src="assets/bulb1a.jpg" class="lightOff" alt="Light off"> -->
+            <img src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/07/26/10/bulb1a.jpg?w968" class="lightOn" alt="Light on">        
+        </div>
+        
+        <div>
+            <button type="button" onclick="lightOn(this)" >Light On </button>
+            <button type="button" onclick="lightOff(this)" >Light off </button>
+        </div>
+
+        function drawCat(howManyTimes) {
+            <button type="button" onclick="drawCat()" >Draw cat </button>
+
+
+        <script>
+           
+        function lightOn() {
+                document.getElementsByClassName('lightOn')[0].src = 'https://cdn.shopify.com/s/files/1/0064/6922/2489/products/6_Watt_12_Volt_GLS_Dimmable_LED_Filament_Light_Bulb_E27_LiquidLEDs.jpg?v=1580339931';
+                document.getElementsByClassName('img-container')[0].style.backgroundColor = '#ccc'
+                console.log('On')
+        }
+        function lightOff() { 
+                document.getElementsByClassName('lightOn')[0].src = 'https://static.standard.co.uk/s3fs-public/thumbnails/image/2018/07/26/10/bulb1a.jpg?w968';
+                document.getElementsByClassName('img-container')[0].style.backgroundColor = 'white'
+                console.log('Off')
+        }
+
+        // LOOPS
+        var howManyTimes;
+        
+        function drawCat(howManyTimes) {
+             for (var i = 0; i < howManyTimes; i++) {
+                console.log(i + " =^.^=");
+            }
+        };
+        </script>
+    <script type="text/javascript" src="index.js"></script>
+
+    <!-- EXERCISE  -->
+    <!-- Visit https://patatap.com/ to see how javascript can be used to create music and build tools -->
+    <!-- Visit CubeSlam.com to see how javascript can be used to create a game -->
+    </body>
+</html>
