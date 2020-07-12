@@ -1,0 +1,145 @@
+<!-- ARRAYS  
+Numbers and strings are kind of boring. There’s not a lot that you can do with a string on its own. JavaScript lets you create and group together
+data in more interesting ways with arrays. An array is just a list of other JavaScript data values. 
+
+For example, if your friend asked you what your favorite dinosaurs were, you could create an array with the names of
+those dinosaurs, in order:
+var myDinosaurs = ["T-Rex", "Velociraptor", "Stegosaurus", "Triceratops", "Brachiosaurus", "Pteranodon", "Apatosaurus", "Diplodocus","Compsogna];
+So instead of giving your friend three separate strings, you
+can just use the single array myDinosaurs.
+
+To create an array, you just use square brackets, []. 
+In fact, an empty array is simply a pair of square brackets, like this:
+[];
+[]
+
+To create an array with values in it, enter the values, separated by commas, between the square brackets. We can call the
+individual values in an array items or elements. In this example,
+our elements will be strings (the names of our favorite dinosaurs),
+so we’ll write them with quote marks. We’ll store the array in a
+variable called dinosaurs:
+var dinosaurs = ["T-Rex", "Velociraptor", "Stegosaurus", "Triceratops", "Brachiosaurus", "Pteranodon", "Apatosaurus", "Diplodocus", "Compsognathus"];
+
+
+ACCESSING AN ARRAYS ELEMENT
+When it’s time to access elements in an array, you use square
+brackets with the index of the element you want, as you can see
+in the following example:
+dinosaurs[0];
+"T-Rex"
+dinosaurs[3];
+"Triceratops"
+
+An index is the number that corresponds to (or matches) the
+spot in the array where a value is stored. Just as with strings, the
+first element in an array is at index 0, the second is at index 1,
+the third at index 2, and so on. That’s when you ask for index 0
+from the dinosaurs array returns "T-Rex" (which is first in the list),
+and index 3 returns "Triceratops" (which is fourth in the list). 
+Arrays 43
+
+It’s useful to be able to access individual elements from an
+array. For example, if you just wanted to show someone your absolute favorite dinosaur, you wouldn’t need the whole dinosaurs array.
+Instead you would just want the first element:
+dinosaurs[0];
+"T-Rex"
+Setting or Changing Element -->
+
+
+<!-- FINDING THE LENGTH OF AN ARRAY
+Sometimes it’s useful to know how many elements there are in
+an array. For example, if you kept adding dinosaurs to your dinosaurs
+array, you might forget how many dinosaurs you have.
+The length property of an array tells you how many elements
+there are in the array. To find the length of an array, just add
+.length to the end of its name. Let’s try it out. First we’ll make a
+new array with three elements:
+var maniacs = ["Yakko", "Wakko", "Dot"];
+maniacs[0];
+"Yakko"
+maniacs[1];
+"Wakko"
+maniacs[2];
+"Dot"
+To find the length of the array, add .length to maniacs:
+maniacs.length;
+3
+JavaScript tells us that there are 3 elements in the array, and
+we already know they have the index positions 0, 1, and 2. This
+gives us a useful piece of information: the last index in an array is
+always the same number as the length of the array minus 1. This
+means that there is an easy way to access the last element in an
+array, however long that array is:
+maniacs[maniacs.length - 1];
+"Dot" -->
+
+ADDING ELEMENTS TO ARRAY
+To add an element to the end of an array, you can use the push
+method. Add .push to the array name, followed by the element you
+want to add inside parentheses, like this:
+var animals = [];
+animals.push("Cat");
+1
+animals.push("Dog");
+2
+animals.push("Llama");
+3
+animals;
+["Cat", "Dog", "Llama"]
+animals.length;
+3
+Here we create an empty array with
+var animals = [];, and then use the push
+method to add "Cat" to the array. Then,
+we use push again to add on "Dog" and
+then "Llama". When we display animals;,
+we see that "Cat", "Dog", and "Llama" were
+added to the array, in the same order we
+entered them.
+The act of running a method in
+computer-speak is known as calling the
+method. When you call the push method,
+two things happen. First, the element
+in parentheses is added to the array.
+Second, the new length of the array is
+returned. That’s why you see those numbers printed out every time you call push.
+48 Chapter 3
+To add an element to the beginning of an array, you can use
+.unshift(element), like this:
+animals;
+["Cat", "Dog", "Llama"]
+u animals[0];
+"Cat"
+animals.unshift("Monkey");
+4
+animals;
+["Monkey", "Cat", "Dog", "Llama"]
+animals.unshift("Polar Bear");
+5
+animals;
+["Polar Bear", "Monkey", "Cat", "Dog", "Llama"]
+animals[0];
+"Polar Bear"
+v animals[2];
+"Cat"
+
+
+<!-- EXERCISE FOR AN ARRAY -->
+
+<!-- Creating a Random Insult Generator
+We can extend the decision maker example to create a program
+that generates a random insult every time you run it!
+var randomBodyParts = ["Face", "Nose", "Hair"];
+var randomAdjectives = ["Smelly", "Boring", "Stupid"];
+var randomWords = ["Fly", "Marmot", "Stick", "Monkey", "Rat"];
+// Pick a random body part from the randomBodyParts array:
+u var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 3)];
+// Pick a random adjective from the randomAdjectives array:
+v var randomAdjective = randomAdjectives[Math.floor(Math.random() * 3)];
+// Pick a random word from the randomWords array:
+w var randomWord = randomWords[Math.floor(Math.random() * 5)];
+// Join all the random strings into a sentence:
+var randomInsult = "Your " + randomBodyPart + " is like a " + 
+randomAdjective + " " + randomWord + "!!!";
+randomInsult;
+"Your Nose is like a Stupid Marmot!!!" -->
