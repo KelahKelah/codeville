@@ -1,4 +1,4 @@
-FUNCTIONS
+## `FUNCTIONS`
 A function is a way to bundle code so that it can be
 reused. Functions allow us to run the same piece of
 code from multiple places in a program without having to copy and paste the code repeatedly. Also, by
@@ -6,7 +6,7 @@ hiding long bits of code in a function and giving it
 an easy-to-understand name, you’ll be better able to
 plan out your code because you can focus on organizing your functions rather than all of the little code 
 
-CREATING A SIMPLE FUNCTION
+## `CREATING A SIMPLE FUNCTION`
 Let’s create a simple function that prints Hello world!. Enter the
 following code in the browser console. 
 

@@ -1,4 +1,4 @@
-ARRAYS  
+## `ARRAYS`
 Numbers and strings are kind of boring. There’s not a lot that you can do with a string on its own. JavaScript lets you create and group together
 data in more interesting ways with arrays. An array is just a list of other JavaScript data values. 
 
@@ -21,32 +21,26 @@ variable called dinosaurs:
 var dinosaurs = ["T-Rex", "Velociraptor", "Stegosaurus", "Triceratops", "Brachiosaurus", "Pteranodon", "Apatosaurus", "Diplodocus", "Compsognathus"];
 
 
-ACCESSING AN ARRAYS ELEMENT
-When it’s time to access elements in an array, you use square
-brackets with the index of the element you want, as you can see
-in the following example:
+## `ACCESSING AN ARRAYS ELEMENT`
+When it’s time to access elements in an array, you use square brackets with the index of the element you want, as you can see in the following example:
 dinosaurs[0];
 "T-Rex"
 dinosaurs[3];
 "Triceratops"
 
-An index is the number that corresponds to (or matches) the
-spot in the array where a value is stored. Just as with strings, the
-first element in an array is at index 0, the second is at index 1,
-the third at index 2, and so on. That’s when you ask for index 0
-from the dinosaurs array returns "T-Rex" (which is first in the list),
-and index 3 returns "Triceratops" (which is fourth in the list). 
+An index is the number that corresponds to (or matches) the spot in the array where a value is stored. Just as with strings, the
+first element in an array is at index 0, the second is at index 1, the third at index 2, and so on. That’s when you ask for index 0
+from the dinosaurs array returns "T-Rex" (which is first in the list), and index 3 returns "Triceratops" (which is fourth in the list). 
 Arrays 43
 
-It’s useful to be able to access individual elements from an
-array. For example, if you just wanted to show someone your absolute favorite dinosaur, you wouldn’t need the whole dinosaurs array.
+It’s useful to be able to access individual elements from an array. For example, if you just wanted to show someone your absolute favorite dinosaur, you wouldn’t need the whole dinosaurs array.
 Instead you would just want the first element:
 dinosaurs[0];
 "T-Rex"
 Setting or Changing Element
 
 
-FINDING THE LENGTH OF AN ARRAY
+## `FINDING THE LENGTH OF AN ARRAY`
 Sometimes it’s useful to know how many elements there are in
 an array. For example, if you kept adding dinosaurs to your dinosaurs
 array, you might forget how many dinosaurs you have.
@@ -73,7 +67,7 @@ array, however long that array is:
 maniacs[maniacs.length - 1];
 "Dot"
 
-ADDING ELEMENTS TO ARRAY
+## `ADDING ELEMENTS TO ARRAY`
 To add an element to the end of an array, you can use the push
 method. Add .push to the array name, followed by the element you
 want to add inside parentheses, like this:
@@ -95,11 +89,9 @@ To remove and element from an array, you use the .pop()
 method. The .pop()
  would usually remove the last element in an array and return that particular array
 
-CLASS EXERCISE
+## `CLASS EXERCISE`
 
-Creating a Random Insult Generator
-We can extend the decision maker example to create a program
-that generates a random insult every time you run it!
+Creating a Random Insult Generator We can extend the decision maker example to create a program that generates a random insult every time you run it!
 var randomBodyParts = ["Face", "Nose", "Hair"];
 var randomAdjectives = ["Smelly", "Boring", "Stupid"];
 var randomWords = ["Fly", "Marmot", "Stick", "Monkey", "Rat"];
@@ -116,20 +108,14 @@ randomInsult;
 "Your Nose is like a Stupid Marmot!!!" 
 
 
-OBJECTS
-Objects in JavaScript are very similar to arrays, but
-objects use strings instead of numbers to access the
-different elements. The strings are called keys or
-properties, and the elements they point to are called
-values. Together these pieces of information are called
-key-value pairs. While arrays are mostly used to
-represent lists of multiple things, objects are often
+## `OBJECTS`
+Objects in JavaScript are very similar to arrays, but objects use strings instead of numbers to access the different elements. The strings are called keys or 
+properties, and the elements they point to are called values. Together these pieces of information are called key-value pairs. While arrays are mostly used to
+represent lists of multiple things, objects are often.
 
-In the previous session  we made several arrays
-that listed different animal names. But what if we wanted to
-store different pieces of information about one animal?
+In the previous session  we made several arrays that listed different animal names. But what if we wanted to store different pieces of information about one animal?
 
-Creating Objects
+## `Creating Objects`
 We could store lots of information about a single animal by creating a JavaScript object. Here’s an object that stores information
 about a three-legged cat named mickey.
 var cat = {
@@ -137,6 +123,7 @@ var cat = {
  name: "mickey",
  color: "grey"
 };
+
 Here we create a variable called cat
 and assign an object to it with three keyvalue pairs. To create an object, we use
 curly brackets, {}, instead of the straight
@@ -160,12 +147,8 @@ could create an empty array and then use the push method to add 1,
 be in your array or object, which is why you can’t always use literals
 to build arrays and objects.
 
-When you create an object, the
-key goes before the colon (:), and
-the value goes after. The colon acts
-a bit like an equal sign—the values
-on the right get assigned to the
-names on the left, just like when
+When you create an object, the key goes before the colon (:), and the value goes after. The colon acts
+a bit like an equal sign—the values on the right get assigned to the names on the left, just like when
 you create variables. In between
 each key-value pair, you have to
 put a comma but you don’t need a comma after the last keyvalue pair (color: "grey"). Because it’s the last key-value
@@ -182,7 +165,7 @@ var cat = {
  color: "Tortoiseshell"
 }; 
 
-ACCESSING AN OBJECT 
+## `ACCESSING AN OBJECT`
 You can access values in objects using square brackets, just like
 with arrays. The only difference is that instead of the index (a
 number), you use the key (a string).
@@ -212,7 +195,7 @@ Object.keys(cat);
 
 
 
-CLASS EXERCISE 
+## `CLASS EXERCISE`
 Keeping Track of Owed Money
 Let’s say you’ve decided to start a bank. You lend your friends
 money, and you want to have a way to keep track of how much

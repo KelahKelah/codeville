@@ -1,4 +1,4 @@
-CONDITIONALS
+## `CONDITIONALS`
 There are two forms of conditional statements in JavaScript: if
 statements and if...else statements. An if statement is used to
 execute a piece of code if something is true. For example, if you’ve
@@ -6,7 +6,7 @@ been good, you get a treat. An if...else statement executes one
 piece of code if something is true and another if not. For example,
 if you’ve been good, you get a treat; else, you get grounded.
 
-IF STATEMENT
+## `IF STATEMENT`
 The if statement is the simplest of JavaScript’s control structures.
 It’s used to run code only if a condition is true. Return to your 
 92 Chapter 6
@@ -18,7 +18,7 @@ w if (name.length > 7) {
 x console.log("Wow, you have a REALLY long name!");
 }
 
-IF...ELSE STATEMENT
+## `IF...ELSE STATEMENT`
 As I said before, an if statement will execute its body only if the
 condition is true. If you want something else to happen when
 the condition is false, you need to use an if...else statement.
@@ -31,7 +31,7 @@ if (name.length > 7) {
  console.log("Your name isn't very long.");
 }               
 
-CHAINING OF IF...ELSE STATEMENT
+## `CHAINING OF IF...ELSE STATEMENT`
 Often we need to check a sequence of conditions and do something
 when one of them is true. For example, say you’re ordering Chinese
 food and you’re choosing what to eat. Your favorite Chinese dish
@@ -74,7 +74,7 @@ Some code to run
 if all the conditions are fal
 
 
-Loops
+## `LOOPS`
 As we’ve seen, conditionals allow you to run a piece of code
 once if a condition is true. Loops, on the other hand, allow you to
 run a piece of code multiple times, depending on whether a condition remains true. For example,
@@ -83,7 +83,7 @@ you should keep eating; or,
 while you still have dirt on your
 face, you should keep washing.
 
-while Loops
+## WHILE LOOPS
 The simplest kind of loop is a while loop. A while loop repeatedly
 executes its body until a particular condition stops being true. By
 writing a while loop, you are saying, “Keep doing this while this
@@ -139,7 +139,7 @@ moves on to whatever comes after the loop. In this case, it prints
 Zzzzzzzzzzz.
 
 
-FOR LOOPS
+## `FOR LOOPS`
 for loops make it easier to write loops that create a variable, loop
 until a condition is true, and update the variable at the end of
 each turn around the loop. When setting up a for loop, you create
