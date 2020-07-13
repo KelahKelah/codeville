@@ -1,4 +1,4 @@
-<!-- CONDITIONALS
+CONDITIONALS
 There are two forms of conditional statements in JavaScript: if
 statements and if...else statements. An if statement is used to
 execute a piece of code if something is true. For example, if you’ve
@@ -198,4 +198,4 @@ then run the increment, which increases i to 1.
 Now we check the condition again. It’s still true, so we run
 the body and increment again. This happens repeatedly until i is
 equal to 3. At this point, the condition is false (3 is not less than 3),
-so we exit the loop. -->
+so we exit the loop. 
