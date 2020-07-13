@@ -1,14 +1,13 @@
-<!-- 
-NAMING VARIABLES
+## `NAMING VARIABLES`
 Be careful with your variable names, because it’s easy to misspell
 them. Even if you just get the capitalization wrong, the JavaScript
 interpreter won’t know what you mean! For example, if you accidentally used a lowercase c in numberOfCandies, you’d get an error:
 numberOfcandies / numberOfSiblings;
 ReferenceError: numberOfcandies is not defined
 Unfortunately, JavaScript will only do exactly what you ask it
-to do. -->
+to do.
 
-<!-- JavaScript lets you perform basic mathematical operations like
+## `JavaScript lets you perform basic mathematical operations like`
 addition, subtraction, multiplication, and division. To make these
 calculations, we use the symbols 
 +,
@@ -18,17 +17,17 @@ calculations, we use the symbols
 operators.
 You can use the JavaScript console just like a calculator. 
 
-Check some calculations on the console -->
+Check some calculations on the console 
 
-<!-- REASSIGNING VARIABLES -->
-<!-- JavaScript lets you reassign variables 
+REASSIGNING VARIABLES 
+avaScript lets you reassign variables 
 var lastName = "Kelechi";
 console.log(firstName)
 
-lastName = "okonkwo"; -->
+lastName = "okonkwo"; 
 
-<!-- 
-INCREMENTING AND DECREMENTING
+
+## `INCREMENTING AND DECREMENTING`
 In JavaScript you’ll often need to increase or decrease the
 value of a variable containing a number by 1. For example, you
 might have a variable that counts the number of high-fives you
@@ -63,7 +62,7 @@ Therefore, x = x + 5 really means “add 5 to x.” Same princeple applies to - 
 DATA TYPE AND VARIABLES
 Strings, Booleans and number
 
-STRINGS
+## STRINGS
 Stringns and sequence of characters surrounded by quotes. It could contain number or symbols
 var aString = 'i am a string number 1!'
  CHECKING LENGHT OF STRING 
@@ -81,21 +80,21 @@ var aString = 'i am a string number 1!'
  var word4 = '!?';
 
  var secretWorld = word1[9] + word2[5] + word3[2] + word4[0]
-console.log(secretWorld) -->
+console.log(secretWorld) 
 
-NUMBERS 
+## NUMBERS 
 
-<!-- BOOLEANS
+## BOOLEANS
 Now for Booleans. A Boolean value is simply a value that’s either
 true or false. For example, here’s a simple Boolean expression.
 var javascriptIsCool = true;
 javascriptIsCool;
-true -->
+true 
 
 
 
 
-<!-- UNDEFINED AND NULL
+## `UNDEFINED AND NULL`
 Finally, we have two values that don’t fit any particular mold.
 They’re called undefined and null. They’re both used to mean
 “nothing,” but in slightly different ways.
@@ -127,4 +126,4 @@ the favorite vegetable variable to null.
 Setting the variable to null would make it obvious to anyone
 reading the code that you don’t have a favorite vegetable. If it were
 undefined, however, someone might just think you hadn’t gotten
-around to setting a value yet -->
+around to setting a value yet 
