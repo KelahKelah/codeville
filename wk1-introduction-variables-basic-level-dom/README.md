@@ -1,3 +1,4 @@
+
 ## `NAMING VARIABLES`
 Be careful with your variable names, because it’s easy to misspell
 them. Even if you just get the capitalization wrong, the JavaScript
