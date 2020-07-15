@@ -30,3 +30,6 @@ printed is displayed on the next line: Hello world!.
 But if you call this function in your browser, you’ll notice that
 there’s a third line, with a little left-facing arrow, as shown in
 This is the return value of the function.
+
+## `EXERCISE`
+Build a random word generator

@@ -115,6 +115,9 @@ represent lists of multiple things, objects are often.
 
 In the previous session  we made several arrays that listed different animal names. But what if we wanted to store different pieces of information about one animal?
 
+## ASSESSING AN OBJECTS
+The just the way we assessed array elements, objects can be assessed but this time with keys. Unlike arrays where index are used
+
 ## `Creating Objects`
 We could store lots of information about a single animal by creating a JavaScript object. Here’s an object that stores information
 about a three-legged cat named mickey.
@@ -235,3 +238,7 @@ We can also look at the entire object to see how much money each
 friend owes us:
 owedMoney;
 { Jimmy: 8, Anna: 7 }
+
+
+## EXERCISE 
+How to build a random color generator

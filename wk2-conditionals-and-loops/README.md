@@ -28,7 +28,7 @@ console.log("Hello " + name);
 if (name.length > 7) {
  console.log("Wow, you have a REALLY long name!");
 } else {
- console.log("Your name isn't very long.");
+ console.log("Your name isn't very long.");relative
 }               
 
 ## `CHAINING OF IF...ELSE STATEMENT`
@@ -199,3 +199,11 @@ Now we check the condition again. It’s still true, so we run
 the body and increment again. This happens repeatedly until i is
 equal to 3. At this point, the condition is false (3 is not less than 3),
 so we exit the loop. 
+
+## ASSIGNMENT
+Read up about switch 
+
+## `EXERCISE`
+
+Building a  grading system Using conditionals
+Building a multiplication table using a loops

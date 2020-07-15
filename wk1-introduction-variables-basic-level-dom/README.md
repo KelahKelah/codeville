@@ -1,3 +1,12 @@
+## JAVASCRIPT
+JavaScript is a programming language is used to write programs
+that run in web pages. JavaScript can control how a web page
+looks or make the page respond when a viewer clicks a button
+or moves the mouse.
+
+Javascript can be used to change things on a web pages.
+Here is quick demo of what javascript can do in web page.
+Open 
 ## `NAMING VARIABLES`
 Be careful with your variable names, because it’s easy to misspell
 them. Even if you just get the capitalization wrong, the JavaScript
@@ -58,9 +67,10 @@ Here, we start out with a variable called x, set to 10. Then, we
 assign x + 5 to x. Because x was 10, x + 5 will be 15. What we’re
 doing here is using the old value of x to work out a new value for x.
 Therefore, x = x + 5 really means “add 5 to x.” Same princeple applies to - -->
-<!-- 
-DATA TYPE AND VARIABLES
-Strings, Booleans and number
+
+
+## `DATA TYPE AND VARIABLES`
+* Strings, Booleans and number
 
 ## STRINGS
 Stringns and sequence of characters surrounded by quotes. It could contain number or symbols
@@ -127,3 +137,34 @@ Setting the variable to null would make it obvious to anyone
 reading the code that you don’t have a favorite vegetable. If it were
 undefined, however, someone might just think you hadn’t gotten
 around to setting a value yet 
+
+
+## `OPERATORS`
+
+* Mathematical operators
+* Logical Operator
+* Assignment Operators
+
+## MATHEMATICAL OPERATORS 
+JavaScript lets you perform basic mathematical operations like
+addition, subtraction, multiplication, and division. To make these
+calculations, we use the symbols +, -, *, / and %, which are called
+operators.
+
+Let’s try something harder. What’s 12,345 plus 56,789?
+12345 + 56789;
+69134
+
+Same way you can subtraction. divide, Multiypy and module. You can also add multiple numbers with multiple plus signs:
+22 + 33 + 44;
+99
+
+You can also use +, -, /, *, %
+
+## ASSIGNMENT OEPRATORS
+They are usually used to assign values to values 
+
+
+
+## `EXERCISE`
+A simple calculator
